@@ -1,12 +1,32 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>RelativeLocators</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+</style>
 </head>
 	<body>
 		1 <input type="text"><br><br>
-		2 <button id="myButton">Sample Target</button> 
+		2 <button class="button" id="myButton">Sample Target</button> 
 		3 <input type="text"><br><br>
 		4 <input type="text">
 	</body>
